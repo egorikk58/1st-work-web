@@ -41,6 +41,7 @@ input{
     flex: 1;
     border: none;
     background: transparent;
+    outline:none;
     padding: 10px;
     font-weight: 14px;
 }
