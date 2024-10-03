@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="style/main.css">
+	<title>ToDo приложение</title>
+</head>
+<body>
+
+	<div class="container">
+        <div class="header">ToDo приложение</div>
+        <div class="header-desc">Список задач на сегодня</div>
+        <div class="card">
+            <ul class="taskList">
+                <li class="emptyList">
+                    <img src="img/leaf.svg" alt="" class="emptyList_img">
+                    <div class="empty-desc">Список дел пуст</div>
+                </li>
+                <li class="standartList">
+                    <span>Купить молоко</span>
+                    <div class="buttons">
+                        <button type="button" data-action="done"><img src="img/tick.svg" alt="Done" class="Done" width="18px" height="18px"></button>
+                        <button type="button" data-action="done"><img src="img/cross.svg" alt="delete" class="delete"  width="18px" height="18px"></button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="cart-add">
+            <div class="cart-head">
+                Добавить новую задачу
+            </div>
+            <div class="cart-body">
+                <form id="form">
+                    <div class="form-group">
+                        <input type="text" class = "form-control">
+                        <small>Что делаем, сколько времени тратим, какой результат получаем.</small>
+                    </div>
+                    <button type="submit">Добавить</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+	<script src="js/main.js"></script>
+</body>
+</html>
